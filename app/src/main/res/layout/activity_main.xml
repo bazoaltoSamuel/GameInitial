@@ -1,10 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="@dimen/paddPant"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            style="@style/titulo"
+            android:text="@string/app_name"/>
 
 
-</android.support.constraint.ConstraintLayout>
+        <Button
+            style="@style/botones"
+            android:id="@+id/btn1Player"
+            android:text="@string/unJuguador"/>
+        
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+            <RadioButton
+                android:id="@+id/rbtnF"
+                style="@style/radio"
+                android:text="@string/nivelFacil"
+                />
+            
+            <RadioButton
+                android:id="@+id/rbtnM"
+                style="@style/radio"
+                android:text="@string/nivelNormal"
+                />
+            
+            <RadioButton
+                android:id="@+id/rbtnD"
+                style="@style/radio"
+                android:text="@string/nivelDificil"
+                />
+            
+        </RadioGroup>
+
+        <Button
+            style="@style/botones"
+            android:id="@+id/btn2Player"
+            android:text="@string/dosJugadore"/>
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="40dp"
+        android:layout_height="0dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+        <ImageView
+            android:id="@+id/ca1"
+            style="@style/casillas"/>
+        <ImageView
+            android:id="@+id/ca2"
+            style="@style/casillas"/>
+        <ImageView
+            android:id="@+id/ca3"
+            android:src="@drawable/aspa"
+            style="@style/casillas"/>
+        <ImageView
+            android:id="@+id/cb1"
+            style="@style/casillas"/>
+        <ImageView
+            android:id="@+id/cb2"
+            android:src="@drawable/circulo"
+            style="@style/casillas"/>
+        <ImageView
+            android:id="@+id/cb3"
+            style="@style/casillas"/>
+        <ImageView
+            android:id="@+id/cc1"
+            android:src="@drawable/circulo"
+            style="@style/casillas"/>
+        <ImageView
+            android:id="@+id/cc2"
+            android:src="@drawable/aspa"
+            style="@style/casillas"/>
+        <ImageView
+            android:id="@+id/cc3"
+            android:src="@drawable/circulo"
+            style="@style/casillas"/>
+    </GridLayout>
+
+
+
+</LinearLayout>

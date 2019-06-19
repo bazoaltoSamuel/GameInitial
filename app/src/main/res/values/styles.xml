@@ -36,5 +36,6 @@
         <item name="android:layout_height">@dimen/casilla</item>
         <item name="android:src">@drawable/casilla</item>
         <item name="android:onClick">touchCasilla</item>
+        <item name="android:layout_margin">2dp</item>
     </style>
 </resources>
