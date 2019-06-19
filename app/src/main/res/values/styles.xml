@@ -1,11 +1,40 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="titulo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textTit</item>
+    </style>
+    
+    <style name="botones">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/anchoBtn</item>
+        <item name="android:minHeight">@dimen/altoBtn</item>
+        <item name="android:textSize">@dimen/textBtn</item>
+        <item name="android:layout_margin">@dimen/margBtn</item>
+        <item name="android:onClick">playGame</item>
+    </style>
+    
+    <style name="radio">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textRad</item>
+        <item name="android:alpha">0.7</item>
+    </style>
+
+    <style name="casillas">
+        <item name="android:layout_width">@dimen/casilla</item>
+        <item name="android:layout_height">@dimen/casilla</item>
+        <item name="android:src">@drawable/casilla</item>
+        <item name="android:onClick">touchCasilla</item>
+    </style>
 </resources>
