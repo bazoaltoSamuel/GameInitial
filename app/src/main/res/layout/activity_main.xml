@@ -6,7 +6,8 @@
     tools:context=".MainActivity"
     android:padding="@dimen/paddPant"
     android:orientation="horizontal"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/backgroud_main">
 
     <LinearLayout
         android:layout_width="wrap_content"

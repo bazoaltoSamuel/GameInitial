@@ -22,6 +22,7 @@
         <item name="android:textSize">@dimen/textBtn</item>
         <item name="android:layout_margin">@dimen/margBtn</item>
         <item name="android:onClick">playGame</item>
+        <item name="android:background">@drawable/backgroud_btn</item>
     </style>
     
     <style name="radio">
