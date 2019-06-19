@@ -12,6 +12,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/textTit</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
     
     <style name="botones">
@@ -23,6 +24,7 @@
         <item name="android:layout_margin">@dimen/margBtn</item>
         <item name="android:onClick">playGame</item>
         <item name="android:background">@drawable/backgroud_btn</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
     
     <style name="radio">
@@ -30,6 +32,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/textRad</item>
         <item name="android:alpha">0.7</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 
     <style name="casillas">
