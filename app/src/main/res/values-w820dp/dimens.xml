@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddPant">24dp</dimen>
+    <dimen name="casilla">160dp</dimen>
+    <dimen name="textTit">48sp</dimen>
+    <dimen name="textBtn">36sp</dimen>
+    <dimen name="anchoBtn">280dp</dimen>
+    <dimen name="altoBtn">72dp</dimen>
+    <dimen name="margBtn">12dp</dimen>
+    <dimen name="radioBtn">12dp</dimen>
+    <dimen name="paddBtn">12dp</dimen>
+    <dimen name="textRad">24sp</dimen>
+</resources>

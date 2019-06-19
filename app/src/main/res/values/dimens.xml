@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="pading_pantalla">12dp</dimen>
+    <dimen name="paddPant">12dp</dimen>
+    <dimen name="casilla">90dp</dimen>
+    <dimen name="textTit">24sp</dimen>
+    <dimen name="textBtn">18sp</dimen>
+    <dimen name="anchoBtn">140dp</dimen>
+    <dimen name="altoBtn">36dp</dimen>
+    <dimen name="margBtn">6dp</dimen>
+    <dimen name="radioBtn">6dp</dimen>
+    <dimen name="paddBtn">6dp</dimen>
+    <dimen name="textRad">12sp</dimen>
 </resources>
